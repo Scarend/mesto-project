@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__avatar-area/profile__avatar-area.css);
+@import url(../blocks/profile/__avatar-button/profile__avatar-button.css);
+@import url(../blocks/profile/__avatar-edit/profile__avatar-edit.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__info-area/profile__info-area.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__info-button/profile__info-button.css);
+@import url(../blocks/profile/__popup-edit/profile__popup-edit.css);
+@import url(../blocks/profile/__description/profile__description.css);
+@import url(../blocks/profile/__add-area/profile__add-area.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+@import url(../blocks/profile/__popup-new-card/profile__popup-new-card.css);
+
+@import url(../blocks/elements/elements.css);
+@import url(../blocks/element/__photo-place/element__photo-place.css);
+@import url(../blocks/element/__pfoto-image/element__pfoto-image.css);
+@import url(../blocks/element/__info/element__info.css);
+@import url(../blocks/element/__title/element__title.css);
+@import url(../blocks/element/__like-button/element__like-button.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__body/popup__body.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__description/popup__description.css);
+@import url(../blocks/popup/__name/popup__name.css);
+@import url(../blocks/popup/__save/popup__save.css);

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./pages/index.css">
+	<title lang="en">Mesto Russia</title>
+</head>
+
+<body class="page">
+	<header class="header">
+		<img src="./images/header__logo.svg" alt="логотип проекта" class="header__logo">
+	</header>
+
+	<main class="content">
+		<section class="profile">
+			<div class="profile__avatar-area">
+				<button type="button" aria-label="Редактировать аватарку профиля" class="profile__avatar-button">
+					<a href="#popup-avatar" class="profile__avatar-edit">
+						<img src="./images/avatar.jpg" alt="" class="profile__avatar">
+					</a>
+				</button>
+			</div>
+			<div class="profile__info-area">
+				<h1 class="profile__name">Жак-Ив Кусто</h1>
+				<button type="button" aria-label="Редактировать инфо профиля" class="profile__info-button">
+					<a href="#popup-profile" class="profile__popup-edit"></a>
+				</button>
+				<p class="profile__description">Исследователь океана</p>
+			</div>
+			<div class="profile__add-area">
+				<button type="button" aria-label="Добавление фото места" class="profile__add-button">
+					<a href="#popup__new-card" class="profile__popup-new-card"></a>
+				</button>
+			</div>
+		</section>
+
+		<section class="elements">
+			<article class="element__photo-place">
+				<img src="./images/1.jpg" alt="" class="element__pfoto-image">
+				<dvi class="element__info">
+					<h2 class="element__title">Карачаевск</h2>
+					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+				</dvi>
+			</article>
+			<article class="element__photo-place">
+				<img src="./images/2.jpg" alt="" class="element__pfoto-image">
+				<dvi class="element__info">
+					<h2 class="element__title">Гора Эльбрус</h2>
+					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+				</dvi>
+			</article>
+			<article class="element__photo-place">
+				<img src="./images/3.jpg" alt="" class="element__pfoto-image">
+				<dvi class="element__info">
+					<h2 class="element__title">Домбай</h2>
+					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+				</dvi>
+			</article>
+			<article class="element__photo-place">
+				<img src="./images/4.jpg" alt="" class="element__pfoto-image">
+				<dvi class="element__info">
+					<h2 class="element__title">Гора Эльбрус</h2>
+					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+				</dvi>
+			</article>
+			<article class="element__photo-place">
+				<img src="./images/5.png" alt="" class="element__pfoto-image">
+				<dvi class="element__info">
+					<h2 class="element__title">Карачаевск</h2>
+					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+				</dvi>
+			</article>
+			<article class="element__photo-place">
+				<img src="./images/6.png" alt="" class="element__pfoto-image">
+				<dvi class="element__info">
+					<h2 class="element__title">Карачаево-Черкесия</h2>
+					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+				</dvi>
+			</article>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<h2 class="footer__copyright">&copy; 2023 Mesto Russia</h2>
+	</footer>
+
+	<div id="popup-avatar" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#" class="popup__close"></a>
+				<div class="popup__title">Редактировать аватар</div>
+				<input type="text" placeholder="Ссылка на картинку" required class="popup__description">
+				<button type="submit" class="popup__save">Сохранить</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-profile" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#" class="popup__close"></a>
+				<div class="popup__title">Редактировать профиль</div>
+				<input type="text" placeholder="Жак-Ив Кусто" required class="popup__name">
+				<input type="text" placeholder="Исследователь океана" required class="popup__description">
+				<button type="submit" class="popup__save">Сохранить</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup__new-card" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#" class="popup__close"></a>
+				<div class="popup__title">Новое место</div>
+				<input type="text" placeholder="Название" required class="popup__name">
+				<input type="text" placeholder="Ссылка на картинку" required class="popup__description">
+				<button type="submit" class="popup__save">Сохранить</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

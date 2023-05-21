@@ -1,0 +1,11 @@
+.profile__popup-edit {
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+@media screen and (max-width: 425px) {
+    .profile__popup-edit {
+    		width: 18px;
+    		height: 18px;
+    	}
+}

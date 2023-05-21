@@ -1,0 +1,8 @@
+.profile__avatar-button {
+	padding: 0px;
+	border: none;
+	background-color: #000;
+}
+.profile__avatar-button:hover {
+	opacity: .5;
+}

@@ -1,0 +1,19 @@
+.profile__info-area {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 30px;
+	max-width: 336px;
+}
+@media screen and (max-width: 660px) {
+    .profile__info-area {
+    		max-width: 380px;
+    		margin-top: 26px;
+    		margin-left: 0px;
+    		justify-content: center
+    	}
+}
+@media screen and (max-width: 425px) {
+    .profile__info-area {
+    		max-width: 282px;
+    	}
+}

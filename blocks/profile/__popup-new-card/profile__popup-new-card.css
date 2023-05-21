@@ -1,0 +1,10 @@
+.profile__popup-new-card {
+	display: block;
+	width: 150px;
+	height: 50px;
+}
+@media screen and (max-width: 425px) {
+    .profile__popup-new-card {
+    		width: 282px;
+    	}
+}
