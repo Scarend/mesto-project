@@ -16,11 +16,7 @@
 	<main class="content">
 		<section class="profile">
 			<div class="profile__avatar-area">
-				<button type="button" aria-label="Редактировать аватарку профиля" class="profile__avatar-button">
-					<a href="#popup-avatar" class="profile__avatar-edit">
-						<img src="./images/avatar.jpg" alt="" class="profile__avatar">
-					</a>
-				</button>
+				<img src="./images/avatar.jpg" alt="" class="profile__avatar">
 			</div>
 			<div class="profile__info-area">
 				<h1 class="profile__name">Жак-Ив Кусто</h1>
@@ -30,9 +26,7 @@
 				<p class="profile__description">Исследователь океана</p>
 			</div>
 			<div class="profile__add-area">
-				<button type="button" aria-label="Добавление фото места" class="profile__add-button">
-					<a href="#popup__new-card" class="profile__popup-new-card"></a>
-				</button>
+				<button type="button" aria-label="Добавление фото места" class="profile__add-button"></button>
 			</div>
 		</section>
 
@@ -86,17 +80,6 @@
 		<h2 class="footer__copyright">&copy; 2023 Mesto Russia</h2>
 	</footer>
 
-	<div id="popup-avatar" class="popup">
-		<div class="popup__body">
-			<div class="popup__content">
-				<a href="#" class="popup__close"></a>
-				<div class="popup__title">Редактировать аватар</div>
-				<input type="text" placeholder="Ссылка на картинку" required class="popup__description">
-				<button type="submit" class="popup__save">Сохранить</button>
-			</div>
-		</div>
-	</div>
-
 	<div id="popup-profile" class="popup">
 		<div class="popup__body">
 			<div class="popup__content">
@@ -104,18 +87,6 @@
 				<div class="popup__title">Редактировать профиль</div>
 				<input type="text" placeholder="Жак-Ив Кусто" required class="popup__name">
 				<input type="text" placeholder="Исследователь океана" required class="popup__description">
-				<button type="submit" class="popup__save">Сохранить</button>
-			</div>
-		</div>
-	</div>
-
-	<div id="popup__new-card" class="popup">
-		<div class="popup__body">
-			<div class="popup__content">
-				<a href="#" class="popup__close"></a>
-				<div class="popup__title">Новое место</div>
-				<input type="text" placeholder="Название" required class="popup__name">
-				<input type="text" placeholder="Ссылка на картинку" required class="popup__description">
 				<button type="submit" class="popup__save">Сохранить</button>
 			</div>
 		</div>

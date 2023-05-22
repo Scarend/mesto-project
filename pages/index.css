@@ -8,8 +8,6 @@
 
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__avatar-area/profile__avatar-area.css);
-@import url(../blocks/profile/__avatar-button/profile__avatar-button.css);
-@import url(../blocks/profile/__avatar-edit/profile__avatar-edit.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__info-area/profile__info-area.css);
 @import url(../blocks/profile/__name/profile__name.css);
@@ -18,7 +16,6 @@
 @import url(../blocks/profile/__description/profile__description.css);
 @import url(../blocks/profile/__add-area/profile__add-area.css);
 @import url(../blocks/profile/__add-button/profile__add-button.css);
-@import url(../blocks/profile/__popup-new-card/profile__popup-new-card.css);
 
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/element/__photo-place/element__photo-place.css);
