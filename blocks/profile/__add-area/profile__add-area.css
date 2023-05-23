@@ -3,8 +3,9 @@
 	justify-content: flex-end;
 	flex-grow: 1;
 }
+
 @media screen and (max-width: 660px) {
-    .profile__add-area {
-    		margin: 36px 0px 36px;
-    	}
+	.profile__add-area {
+		margin: 36px 0 36px;
+	}
 }

@@ -2,28 +2,22 @@
 	display: flex;
 	align-items: center;
 	max-width: 880px;
-	min-height: 120px;
-	margin: 0px auto 50px;
+	margin: 0 auto 50px;
 }
-@media screen and (max-width: 900px) {
-    .profile {
-    		padding-left: 10px;
-    		padding-right: 10px;
-    	}
-}
+
 @media screen and (max-width: 660px) {
-    .profile {
-    		padding-left: 0px;
-    		padding-right: 0px;
-    		max-width: 620px;
-    		min-height: 286px;
-    		margin: 0px auto;
-    		flex-direction: column;
-    	}
+	.profile {
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 620px;
+		margin: 0 auto;
+		flex-direction: column;
+	}
 }
+
 @media screen and (max-width: 320px) {
-    .profile {
-    		margin-left: 19px;
-    		margin-right: 19px;
-    	}
+	.profile {
+		margin-left: 19px;
+		margin-right: 19px;
+	}
 }

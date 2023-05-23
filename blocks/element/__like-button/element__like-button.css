@@ -2,9 +2,9 @@
 	width: 22px;
 	height: 19px;
 	border: none;
-	padding: 0px;
+	padding: 0;
 	background-image: url(../../../images/like.svg);
-	background-color: #fff;
+	background-color: rgb(255, 255, 255, .9);
 	background-repeat: no-repeat;
 	background-position: center;
 }
