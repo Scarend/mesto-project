@@ -1,4 +1,5 @@
 .element__info {
+	display: block;
 	color: #000;
 	display: flex;
 	margin: 25px 15px 0 21px;

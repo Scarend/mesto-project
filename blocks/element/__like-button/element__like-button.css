@@ -7,6 +7,7 @@
 	background-color: rgb(255, 255, 255, .9);
 	background-repeat: no-repeat;
 	background-position: center;
+	transition: all 0.3s ease-in-out;
 }
 
 .element__like-button:hover {

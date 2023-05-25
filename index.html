@@ -20,9 +20,7 @@
 			</div>
 			<div class="profile__info-area">
 				<h1 class="profile__name">Жак-Ив Кусто</h1>
-				<button type="button" aria-label="Редактировать инфо профиля" class="profile__info-button">
-					<a href="#popup-profile" class="profile__popup-edit"></a>
-				</button>
+				<button type="button" aria-label="Редактировать инфо профиля" class="profile__info-button"></button>
 				<p class="profile__description">Исследователь океана</p>
 			</div>
 			<div class="profile__add-area">
@@ -31,66 +29,73 @@
 		</section>
 
 		<section class="elements">
-			<article class="element__photo-place">
-				<img src="./images/1.jpg" alt="" class="element__pfoto-image">
-				<dvi class="element__info">
-					<h2 class="element__title">Карачаевск</h2>
-					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
-				</dvi>
-			</article>
-			<article class="element__photo-place">
-				<img src="./images/2.jpg" alt="" class="element__pfoto-image">
-				<dvi class="element__info">
-					<h2 class="element__title">Гора Эльбрус</h2>
-					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
-				</dvi>
-			</article>
-			<article class="element__photo-place">
-				<img src="./images/3.jpg" alt="" class="element__pfoto-image">
-				<dvi class="element__info">
-					<h2 class="element__title">Домбай</h2>
-					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
-				</dvi>
-			</article>
-			<article class="element__photo-place">
-				<img src="./images/4.jpg" alt="" class="element__pfoto-image">
-				<dvi class="element__info">
-					<h2 class="element__title">Гора Эльбрус</h2>
-					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
-				</dvi>
-			</article>
-			<article class="element__photo-place">
-				<img src="./images/5.png" alt="" class="element__pfoto-image">
-				<dvi class="element__info">
-					<h2 class="element__title">Карачаевск</h2>
-					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
-				</dvi>
-			</article>
-			<article class="element__photo-place">
-				<img src="./images/6.png" alt="" class="element__pfoto-image">
-				<dvi class="element__info">
-					<h2 class="element__title">Карачаево-Черкесия</h2>
-					<button type="button" aria-label="Лайк места" class="element__like-button"></button>
-				</dvi>
-			</article>
+			<ul class="element__card">
+				<li class="element__photo-place">
+					<img src="./images/1.jpg" alt="" class="element__pfoto-image">
+					<div class="element__info">
+						<h2 class="element__title">Карачаевск</h2>
+						<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+					</div>
+				</li>
+
+				<li class="element__photo-place">
+					<img src="./images/2.jpg" alt="" class="element__pfoto-image">
+					<div class="element__info">
+						<h2 class="element__title">Гора Эльбрус</h2>
+						<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+					</div>
+				</li>
+
+				<li class="element__photo-place">
+					<img src="./images/3.jpg" alt="" class="element__pfoto-image">
+					<div class="element__info">
+						<h2 class="element__title">Домбай</h2>
+						<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+					</div>
+				</li>
+
+				<li class="element__photo-place">
+					<img src="./images/4.jpg" alt="" class="element__pfoto-image">
+					<div class="element__info">
+						<h2 class="element__title">Гора Эльбрус</h2>
+						<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+					</div>
+				</li>
+
+				<li class="element__photo-place">
+					<img src="./images/5.png" alt="" class="element__pfoto-image">
+					<div class="element__info">
+						<h2 class="element__title">Карачаевск</h2>
+						<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+					</div>
+				</li>
+
+				<li class="element__photo-place">
+					<img src="./images/6.png" alt="" class="element__pfoto-image">
+					<div class="element__info">
+						<h2 class="element__title">Карачаево-Черкесия</h2>
+						<button type="button" aria-label="Лайк места" class="element__like-button"></button>
+					</div>
+				</li>
+			</ul>
 		</section>
-	</main>
 
-	<footer class="footer">
-		<h2 class="footer__copyright">&copy; 2023 Mesto Russia</h2>
-	</footer>
+		<footer class="footer">
+			<h2 class="footer__copyright">&copy; 2023 Mesto Russia</h2>
+		</footer>
 
-	<div id="popup-profile" class="popup popup__opened">
-		<div class="popup__body">
-			<div class="popup__content">
-				<a href="#" class="popup__close"></a>
-				<div class="popup__title">Редактировать профиль</div>
-				<input type="text" placeholder="Жак-Ив Кусто" required class="popup__name">
-				<input type="text" placeholder="Исследователь океана" required class="popup__description">
-				<button type="submit" class="popup__save">Сохранить</button>
+		<div id="popup-profile" class="popup popup__opened">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#" class="popup__close"></a>
+					<div class="popup__title">Редактировать профиль</div>
+					<input type="text" placeholder="Жак-Ив Кусто" required class="popup__name">
+					<input type="text" placeholder="Исследователь океана" required class="popup__description">
+					<button type="submit" class="popup__save">Сохранить</button>
+				</div>
 			</div>
 		</div>
-	</div>
+	</main>
 </body>
 
 </html>

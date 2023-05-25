@@ -1,5 +1,5 @@
 .element__photo-place {
-	max-width: 282px;
+	margin: 0 auto;
 	background: #FFFFFF;
 	border-radius: 10px;
 }
