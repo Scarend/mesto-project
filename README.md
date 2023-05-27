@@ -23,4 +23,4 @@
 
 **Github Pages**
 
-		* [Ссылка на промежуточную работу на Github Pages]https://scarend.github.io/mesto-project/
+		* [Ссылка на промежуточную работу на Github Pages](https://scarend.github.io/mesto-project/)
