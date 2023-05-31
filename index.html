@@ -15,17 +15,13 @@
 
 	<main class="content">
 		<section class="profile">
-			<div class="profile__avatar-area">
-				<img src="./images/avatar.jpg" alt="аватарка пользователя" class="profile__avatar">
-			</div>
+			<img src="./images/avatar.jpg" alt="аватарка пользователя" class="profile__avatar">
 			<div class="profile__info-area">
 				<h1 class="profile__name">Жак-Ив Кусто</h1>
 				<button type="button" aria-label="Редактировать инфо профиля" class="profile__info-button"></button>
 				<p class="profile__description">Исследователь океана</p>
 			</div>
-			<div class="profile__add-area">
-				<button type="button" aria-label="Добавление фото места" class="profile__add-button"></button>
-			</div>
+			<button type="button" aria-label="Добавление фото места" class="profile__add-button"></button>
 		</section>
 
 		<section class="elements">
@@ -81,20 +77,27 @@
 		</section>
 
 		<footer class="footer">
-			<h2 class="footer__copyright">&copy; 2023 Mesto Russia</h2>
+			<p class="footer__copyright">&copy; 2023 Mesto Russia</p>
 		</footer>
 
-		<div id="popup-profile" class="popup popup__opened">
-			<div class="popup__body">
-				<div class="popup__content">
-					<a href="#" class="popup__close"></a>
-					<div class="popup__title">Редактировать профиль</div>
-					<input type="text" placeholder="Жак-Ив Кусто" required class="popup__name">
-					<input type="text" placeholder="Исследователь океана" required class="popup__description">
-					<button type="submit" class="popup__save">Сохранить</button>
-				</div>
+		<div id="profile-popup" class="popup popup__opened">
+			<div class="popup__form">
+				<button type="button" class="popup__close" aria-label="Закрыть форму"></button>
+				<h3 class="popup__name">Редактировать профиль</h3>
+				<form class="popup__profile" name="profile" novalidate="">
+					<label for="username-input" class="popup__label">
+						<input id="username-input" class="popup__input" name="username" required="" placeholder="Ваше имя"
+							minlength="2" maxlength="40">
+					</label>
+					<label for="description-input" class="popup__label">
+						<input id="description-input" class="popup__input" name="description" required=""
+							placeholder="Ваш род деятельности" minlength="2" maxlength="200">
+					</label>
+					<button type="submit" class="popup__submit" aria-label="Сохранить" disabled="true">Сохранить</button>
+				</form>
 			</div>
 		</div>
+
 	</main>
 </body>
 
