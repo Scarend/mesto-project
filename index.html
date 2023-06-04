@@ -81,19 +81,19 @@
 		</footer>
 
 		<div id="profile-popup" class="popup popup__opened">
-			<div class="popup__form">
-				<button type="button" class="popup__close" aria-label="Закрыть форму"></button>
-				<h3 class="popup__name">Редактировать профиль</h3>
-				<form class="popup__profile" name="profile" novalidate="">
-					<label for="username-input" class="popup__label">
-						<input id="username-input" class="popup__input" name="username" required="" placeholder="Ваше имя"
-							minlength="2" maxlength="40">
+			<div class="popup__container">
+				<h2 class="popup__info">Редактировать профиль</h2>
+				<button class="popup__close"></button>
+				<form class="popup__form" action="#">
+					<label class="popup__label" for="username">
+						<input class="popup__input" type="text" name="username" required="" autocomplete="off"
+							placeholder="Ваше имя">
 					</label>
-					<label for="description-input" class="popup__label">
-						<input id="description-input" class="popup__input" name="description" required=""
-							placeholder="Ваш род деятельности" minlength="2" maxlength="200">
+					<label class="popup__label" for="userdescription">
+						<input class="popup__input" type="text" name="userdescription" required="" autocomplete="off"
+							placeholder="О себе">
 					</label>
-					<button type="submit" class="popup__submit" aria-label="Сохранить" disabled="true">Сохранить</button>
+					<button class="popup__submit" type="submit">Сохранить</button>
 				</form>
 			</div>
 		</div>

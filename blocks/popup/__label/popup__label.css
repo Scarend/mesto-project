@@ -1,7 +1,9 @@
 .popup__label {
-	margin: 0 0 5px;
+	height: 27px;
+	align-self: center;
+	padding-bottom: 30px;
 }
 
 .popup__label:last-of-type {
-	margin: 0 0 10px;
+	padding-bottom: 0;
 }
