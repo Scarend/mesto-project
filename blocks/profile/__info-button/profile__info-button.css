@@ -6,7 +6,7 @@
 	margin-left: 18px;
 	padding: 0;
 	background-image: url(../../../images/profile-pen.svg);
-	background-color: rgba(0, 0, 0, .9);
+	background-color: rgba(0, 0, 0, 0);
 	background-repeat: no-repeat;
 	background-position: center;
 	transition: all 0.3s ease-in-out;

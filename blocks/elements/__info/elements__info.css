@@ -1,8 +1,8 @@
-.element__info {
+.elements__info {
 	display: block;
 	color: #000;
 	display: flex;
-	margin: 25px 15px 0 21px;
+	margin: 25px 15px 31px 21px;
 	align-items: center;
 	justify-content: space-between;
 }

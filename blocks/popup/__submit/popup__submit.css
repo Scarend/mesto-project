@@ -7,6 +7,9 @@
 	max-width: 358px;
 	min-height: 50px;
 	margin: 48px 36px 37px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
 }
 
 @media screen and (max-width: 550px) {
@@ -14,6 +17,8 @@
 		width: 238px;
 		min-height: 46px;
 		margin: 45px 22px 25px;
+		font-size: 14px;
+		line-height: 17px;
 	}
 }
 
