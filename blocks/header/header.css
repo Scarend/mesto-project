@@ -4,15 +4,17 @@
 	margin: 45px auto 40px;
 	border-bottom: 1px solid rgba(84, 84, 84, .7);
 }
+
 @media screen and (max-width: 900px) {
-    .header {
-    		max-width: 620px;
-    	}
+	.header {
+		max-width: 620px;
+	}
 }
+
 @media screen and (max-width: 660px) {
-    .header {
-    		margin: 28px auto 42px;
-    		max-width: 320px;
-    		min-height: 58px;
-    	}
+	.header {
+		margin: 28px auto 42px;
+		max-width: 320px;
+		min-height: 55px;
+	}
 }
